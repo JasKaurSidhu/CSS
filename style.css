@@ -1,0 +1,883 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+h1{color: rgb(42, 210, 202);
+background-color: #3360a9;
+text-align: center;
+text-decoration:line-through;}
+
+body{
+    background-color:beige;
+}
+
+#one{color:red;
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    padding-top: 50px;
+    padding:65px 10px 15px 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: dashed;
+    border: 10px solid greenyellow;
+   margin: 100px 200px 300px 40px;
+}
+
+.para{
+    color:rgb(00, 180, 140);
+    text-align: center;
+    font-size: 20px;
+    text-decoration: line-through;
+  font-style:oblique;
+  font-weight: 900;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 25px;
+  text-transform:capitalize;
+}
+a{
+    text-decoration: none;
+}
+
+#div1{
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+#div2{
+    height:100px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 200px;
+    border-radius: 50%;
+}
+
+
+#clone
+{
+    height: 40px;
+    background-color: black;
+    border: 5px solid white;
+
+    
+}
+
+#clone1
+{
+    text-decoration: underline;
+    color: orange;
+    padding-right: 15px;
+   
+}
+h5{
+    height: 0px;
+    padding-left: 200px;
+}
+#button{
+    background-color: orange;
+    border: orange ;
+}
+a{
+    color: white;
+    margin-right: 150px;
+   
+}
+
+.link
+{
+    text-decoration: underline;
+    padding-top: 15px;
+}
+
+#page2{
+    background-color: aqua;
+    display: inline;
+}
+#button2
+{
+    color: blue;
+    display: block;
+}
+
+#box1
+{
+    background-color: rgba(255,0,0,0.5);
+    height: 100px;
+    width: 100px;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 300px;
+    
+}
+
+#box2
+{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 15px;
+    visibility: hidden;
+}
+
+#box3
+{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    color: white;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.new
+{
+    color: aquamarine;
+    background-color: black;
+    height: 50px;
+    padding-right: 20px;
+    padding-top: 10px;
+
+}
+#new1
+{
+    background-color: white;
+}
+.new2
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,0,0,0.25);
+    border: 2px solid black;
+    margin-top: 2px;
+    margin-left: 12px;
+    display: inline-block;
+}
+
+.new5
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(0,255,0,0.5);
+    border: 2px solid black;
+    margin-top: 2px;
+    margin-left: 12px;
+    display: inline-block;
+}
+
+.new6
+{ height: 100px;
+    width: 100px;
+    background-color: rgba(0,0,255,0.75);
+    border: 2px solid black;
+    margin-top: 2px;
+    margin-left: 12px;
+    display: inline-block;
+
+}
+
+.new3
+{
+   background-color: black;
+   text-align: center;
+   color: white;
+   height: 300px;
+}
+.new4
+{
+    height: 1500px;
+}
+
+#box4
+{
+    height: 100px;
+    width: 100px;
+    background-color:bisque;
+    font-size: 10px;
+}
+
+#box5
+{
+    height: 70vh;
+    width: 33%;
+    background-color: aqua;
+    margin-left: 20%;
+    font-size: 2em;
+    width: 2rem;
+}
+
+#box6
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: solid 2px black;
+    display: inline-block;
+    position: static;
+    background-image: url(image.avif);
+    background-size: cover;
+    
+}
+
+#box7
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: solid 2px black;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: -20px;
+    z-index: -1;
+    background-image: url(image.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+#box8
+{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: solid 2px black;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    background-image: url(image.avif);
+    background-size: auto;
+    
+}
+
+#box9
+{
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: solid 2px black;
+    display: inline-block;
+    position: fixed;
+   
+}
+
+#box10
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(211, 104, 184);
+    border: solid 2px black;
+    display: inline-block;
+    position: sticky;
+    left: 500px;
+    top:0px;  
+    
+}
+
+#love
+{
+    height: 200px;
+    width: 200px;
+    background-image: url(image.avif);
+    background-size: cover;
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+}
+
+#box111
+{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(104, 211, 172);
+    border: solid 2px black;
+    display: inline-block; 
+    flex-grow: 1;
+    
+}
+#box222
+{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(219, 146, 74);
+    border: solid 2px black;
+    display: inline-block; 
+    /* flex-shrink: 0; */
+    flex-grow: 2;
+    
+}
+#box333
+{
+    height: 80px;
+    width: 100px;
+    background-color: rgb(92, 165, 239);
+    border: solid 2px black;
+    display: inline-block; 
+    
+}
+#box444
+{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(229, 70, 70);
+    border: solid 2px black;
+    display: inline-block;
+    /* align-self: flex-end;  */
+    
+    
+}
+#box555
+{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(206, 235, 80);
+    border: solid 2px black;
+    display: inline-block; 
+    
+}
+
+#fp
+{
+    text-decoration: none;
+    color: aqua;
+    margin-top: 200px;
+    background-color: white;
+    font-size:125px;
+}
+
+#level4
+{
+    text-align: center;
+    background-color: white;
+}
+#container
+{
+    height: 200px;
+    width: 700px;
+    border: 2px solid black;
+    margin-left: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /*align-content: flex-start;*/
+}
+
+#navbar1
+{
+    width: auto;
+    background-color: black;
+    display: flex; 
+    flex-direction: row;
+    justify-content:space-evenly;
+    text-decoration: none;
+}
+<!--To remove bullet points-->
+.jas
+{
+    
+    display: inline;
+}
+li
+{
+    list-style-type: none;
+}
+
+.outer
+{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.inner
+{
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
+}
+
+.media1
+{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+@media(width:600px)
+{
+    .media1{
+        background-color: red;
+    }
+}
+
+@media(min-width:700px)
+{
+    .media1{
+        background-color: greenyellow;
+    }
+}
+
+
+@media(max-width:500px)
+{
+    .media1{
+        background-color:purple;
+    }
+}
+
+@media(min-width:500px) and (max-width:600px)
+{
+    .media1{
+        background-color:orange;
+    }
+}
+
+.transition
+{
+    height: 200px;
+    width: 200px;
+    color: black;
+    background-color: orange;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-delay: 1s; */
+    transition: all 2s steps(5) 1s;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+   transform: rotate(45deg);
+   /* transform: scale(2); */
+   /* transform: scale(1,2); */
+   /* transform: scaleX(2); */
+   
+}
+
+.transition:hover
+{
+    background-color: red;
+    font-size: 20px;
+    transform: translate(200px,80px);
+    transform: skewX(40deg);
+}
+.transition:active
+{
+    background-color: aqua;
+}
+
+.too{
+    height: 100px;  
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* animation-name: myFrame;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 1sec;
+    animation-iteration-count: 5;
+    animation-direction: alternate-reverese; */
+    animation: myFrame 3s ease-in 1sec infinite normal;
+    /* animation-fill-mode:backwards; */
+}
+
+
+/* Only one will work maybe last one in most of the cases */
+
+/* @keyframes myFrame{
+    from{background-color: red;}
+    to{background-color: greenyellow;}
+} */
+
+@keyframes myFrame{
+    0%{
+        left:0px;
+        background-color: red;
+    }
+    30%
+    {
+        background-color: blueviolet;
+    }
+    100%{
+        left: 200px;
+        background-color: greenyellow;
+    }
+}
+
+.loader
+{
+    height: 100px;
+    width: 100px;
+    color: grey;
+    border-radius: 50%;
+    border: 10px solid grey;
+   border-right: 10px solid black;
+    left: 200px;
+    top: 300px;
+    position: absolute;
+    animation-name: myLoader;
+    animation-duration: 3s;
+    animation-timing-function: steps(5);
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    /* animation: myLoader 3s ease-in 0sec infinite normal; */
+
+}
+@keyframes myLoader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.bar
+{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+   
+}
+
+.logo{
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+}
+
+
+
+.sublogo
+{
+    background-image: url("Amazon-Logo-White.png");
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+}
+.border
+{
+    border: 1px solid transparent;
+}
+
+.border:hover
+{
+    border: 1px solid white;
+}
+.deliverto
+{
+    color: white;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    padding: 3px;
+}
+.india
+{
+    color: white;
+    font-size: 1rem;
+margin-left: 10px;
+    
+}
+.country
+{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+.location
+{
+    height: 40px;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+.search
+{
+    display: flex;
+    height: 28px;
+    width: 500px;
+    background-color: coral;
+ justify-content:space-evenly;
+ border-radius: 6px;
+ border: 1px solid white;
+ font-size: 1rem;
+   
+}
+.search:hover{
+    border: 3px solid coral;
+}
+#ph
+{
+ width: 100%;
+ height: 28px;
+ border: none;
+ 
+}
+.select
+{
+    height: 28px;
+    text-align: center;
+    border: none;  
+   
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+   
+}
+.icon{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.sign
+{
+    padding: 5px;
+}
+.signin
+{
+    font-size: 0.7rem;
+    margin-bottom: 3px;
+    
+}
+.returns
+{
+    padding: 5px;
+}
+.cart i
+{
+font-size: 33px;
+}
+.cart{
+    font-size: 0.85rem;
+}
+
+/*  <!-- ----------------- DEALS -------------------- --> */
+/*  <!-- ----------------- BAR -------------------- --> */
+.alldeals
+{
+    display: flex;
+    height: 40px;
+    color: whitesmoke;
+    background-color: #3360a9;
+    align-items: center;
+    padding-left:10px ;
+    justify-content: space-evenly;
+}
+
+.all
+{
+    display: flex;
+    width: 80px;
+    padding-left: 8px;
+
+}
+
+.others
+{
+    font-size: .7rem;
+    font-weight: bold;
+    justify-content: left;
+    
+
+  
+}
+.electronics
+{
+    justify-content: end;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+
+.alldeals-ops p{
+    display: inline;
+}
+
+.hero   
+{
+    background-image: url("Hero.jpg");
+     background-size: cover;
+     height: 400px;  
+     display: flex; 
+     justify-content: center;
+     align-items: flex-end;
+     
+    
+     
+} 
+
+.subhero
+{
+    height: 50px;
+    color: white;
+    background-color: rgba(178, 198, 217,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 25px;
+}
+.subhero a{
+    color: aquamarine;
+}
+/* For Shopping */
+.shopping
+{
+
+    
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap:wrap;
+    margin-top: 20px;
+   margin-bottom: 20px;
+    
+}
+
+.box
+{
+    margin-top: 20px;
+    border: 1px solid black;
+    height: 330px;
+    width: 23%;
+    background-color: aliceblue;
+  
+   
+}
+.fashion
+{
+    background-image: url("Fashion.jpg");
+    background-size: cover;
+    height: 230px;
+    margin: 20px;
+}
+.exercise
+{
+    background-image: url("Exercise.jpg");
+    background-size: cover;
+    height: 230px;
+    margin: 20px;
+}
+.bags
+{
+    background-image: url("Bags.jpg");
+    background-size: cover;
+    height: 230px;
+    margin: 20px;
+}
+.perfumes
+{
+    background-image: url("Perfumes.jpg");
+    background-size: cover;
+    height: 230px;
+    margin: 20px;
+}
+.sports
+{
+    background-image: url("Fashion.jpg");
+    background-size: cover;
+    height: 230px;
+    margin: 20px;
+}
+.electronics1{
+    background-image: url("Electronics.jpg");
+    background-size: cover;
+    height: 230px;
+    margin: 20px;
+}
+.homedecor
+{
+    background-image: url("HomeDecor.jpg");
+    background-size: cover;
+    height: 230px;
+    margin: 20px;
+}
+.makeup
+{
+    background-image: url("MakeUp.jpg");
+    background-size: cover;
+    height: 230px;
+    margin: 20px;
+}
+
+/* ------ Footer ----- */
+.footer
+{
+    margin-top: 25px;
+}
+.footer1
+{
+   
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #3b548f;
+    justify-content: center;
+    color: white;
+}
+.footer21
+{
+    display: flex;
+    justify-content:space-around;
+    background-color: #5a73ac;
+    color: white;
+    height: 300px;
+    
+   padding-top: 20px;
+}
+
+ul a{
+display: block;
+margin-top: 5px;
+font-size: 0.85rem;
+}
+
+.footer3
+{
+    height: 110px;
+    background-color: rgb(30, 49, 125);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.logoagain
+{
+    background-image: url("Amazon-Logo-White.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+     
+}
+

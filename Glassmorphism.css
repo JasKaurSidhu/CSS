@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body
+{   min-height: 100vh;
+    width: 100%;  
+    background: url(Mountains.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.wrapper
+{
+    width: 400px;
+    padding: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255,0.1);
+    /* webkit-backdrop-filter:blur(4px); */
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+form h2{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.inputs{
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    margin: 15px 0;
+}
+.inputs input{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+}
+.inputs label
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3s ease;
+}
+
+
+.inputs input:focus~label,
+.inputs input:valid~label
+{
+    transform: translateY(-90%);
+    font-size: 0.8rem;
+    top: 10px;
+}
+
+

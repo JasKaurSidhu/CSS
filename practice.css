@@ -1,0 +1,35 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.a::before
+{
+    content:" ";
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    transform: translate(-200px,-120px);
+    background: linear-gradient(90 deg, rgb(0,0,0),rgb(#fff));  
+    
+}
+.a{
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color: aqua;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.a::after
+{
+    content:"";
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    transform: translate(-200px,-120px);
+    background: linear-gradient(90 deg, rgb(0,0,0),rgb(#fff));  
+    
+}

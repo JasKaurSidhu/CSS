@@ -1,0 +1,98 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ebf5fc;
+}
+
+button
+{
+    height: 70px;
+    width: 250px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    margin: 0 30px;
+    color:#6a9bd8;
+    background-color: #ebf5fc;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn1
+{
+    font-size: 20px;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255,0.8),
+    6px 6px 10px rgba(0, 0, 0,0.2);
+    
+}
+
+.btn1:hover
+{
+    font-size: 23px;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255,0.5),
+                inset 8px 8px 16px rgba(0, 0 ,0,0.1);
+   
+
+}
+
+.btn2
+{
+    font-size: 20px;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255,0.8),
+                6px 6px 10px rgba(0, 0, 0,0.2);
+    
+}
+
+.btn2:hover
+{
+    font-size: 23px;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255,0.5),
+                inset 8px 8px 16px rgba(0, 0, 0,0.1);
+   
+
+}
+
+
+.btn3
+
+{  
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255,0.5),
+                inset 8px 8px 16px rgba(0, 0, 0,0.1);
+    
+}
+
+
+.btn3:hover
+{
+
+    font-size: 23px;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255,0.8),
+    6px 6px 10px rgba(0, 0, 0,0.2);
+}
+
+.btn4
+{  font-size: 20px;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255,0.5),
+                inset 8px 8px 16px rgba(0, 0, 0,0.1);
+    
+}
+
+
+.btn4:hover
+{
+    font-size: 23px;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255,0.8),
+    6px 6px 10px rgba(0, 0, 0,0.2);
+}
